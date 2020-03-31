@@ -1,0 +1,48 @@
+
+html {
+	height: 100%
+}
+
+body{
+	height: 100%;
+}
+
+#container {
+	display: flex;
+	min-height:100%;
+	flex-direction: column;
+}
+
+.header {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.center {
+	display: flex;
+	flex-direction: column;
+}
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+.footer .gauche {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.footer .droite {
+	display: flex;
+	justify-content: flex-end;
+}
+
+p {
+	padding: 5px;
+}
+
+#barre_nav #search {
+	size: 70 15px;
+}
